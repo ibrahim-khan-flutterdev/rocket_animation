@@ -36,6 +36,7 @@ class _RocketAnimationScreenState extends State<RocketAnimationScreen>
   @override
   void initState() {
     super.initState();
+    //kkkk
     final animationProvider = Provider.of<MyAnimation>(context, listen: false);
     animationProvider.init(this);
   }
